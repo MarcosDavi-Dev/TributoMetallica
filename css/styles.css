@@ -82,3 +82,90 @@ html {
     color: #c4fa00;
     font-weight: bold;
 }
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 500px;
+        background-color: #525151;
+        position: relative;
+        margin: 20px 10px;
+        padding: 10px 20px;
+        color: #c4fa00;
+    }
+
+    /* Primeira imagem */
+
+    figure {
+        margin: 10px;
+    }
+
+    figure img{
+        margin: 0;
+        width: 300px;
+        height: 500;
+    }
+    
+    /* Curiosidades */
+    .curiosities-container {
+        padding-top: 0;
+        padding-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-top: 1px dashed #000;
+        border-bottom: 1px dashed #000;
+    }
+        .curiosities-container li {
+        height: 40px; 
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    
+    .container {
+        max-width: 250px;
+        background-color: #525151;
+        position: relative;
+        margin: 20px 10px;
+        padding: 10px 20px;
+        color: #c4fa00;
+    }
+
+    /* Primeira imagem */
+
+    figure {
+        margin: 10px;
+    }
+
+    figure img{
+        margin: 0;
+        width: 200px;
+        height: 500;
+    }
+
+    /* Quotes */
+
+    .quotes-container blockquote {
+        font-weight: bold;
+        font-size: 15px;
+    }    
+    
+    /* Curiosidades */
+    .curiosities-container {
+        padding-top: 0;
+        padding-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-top: 1px dashed #000;
+        border-bottom: 1px dashed #000;
+    }
+        .curiosities-container li {
+        height: 30px; 
+        font-size: 8px;
+    }
+
+}
